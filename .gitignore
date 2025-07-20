@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+build/
+dist/
+
+# React environment
+.env
+.env.local
+.env.development
+.env.production
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+.env
+instance/
+*.sqlite3
+
+# Logs & cache
+*.log
+.cache/
+*.pid
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+
+# Others
+*.bak
+*.tmp
