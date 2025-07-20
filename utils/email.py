@@ -7,6 +7,7 @@ def send_inquiry_email(inquiry):
     print("send_inquiry_email called from:")
     traceback.print_stack()
     subject = "New Event Inquiry"
+    print("EMAIL DEBUG: subject =", subject, "type =", type(subject))
     if not isinstance(subject, str):
         raise ValueError("Subject must be a string")
     sender = current_app.config.get('MAIL_DEFAULT_SENDER')
